@@ -32,7 +32,7 @@ class Result
 
     public function getTransactionId()
     {
-        if (!isset($this->processorPassed)) {
+        if (!$this->processorPassed) {
             throw new ProcessorPassException('The transaction has not passed yet, id not available');
         }
         return $this->transactionId;

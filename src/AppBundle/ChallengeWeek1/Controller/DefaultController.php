@@ -1,6 +1,6 @@
 <?php
 
-namespace ConnectHolland\UnitTestTutorial\AppBundle\ChallengeWeek1Controller;
+namespace ConnectHolland\UnitTestTutorial\AppBundle\ChallengeWeek1\Controller;
 
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
